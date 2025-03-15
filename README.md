@@ -2,18 +2,21 @@
 
 ![matrix](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWQ5YmVhMDVoMHZnemluNTlnbDIzcnBjMW81aHozcnh3MW9qMG51MCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/sULKEgDMX8LcI/giphy.gif)![matrix](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWQ5YmVhMDVoMHZnemluNTlnbDIzcnBjMW81aHozcnh3MW9qMG51MCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/sULKEgDMX8LcI/giphy.gif)![matrix](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWQ5YmVhMDVoMHZnemluNTlnbDIzcnBjMW81aHozcnh3MW9qMG51MCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/sULKEgDMX8LcI/giphy.gif)
 
-
-## 💊 Create Connection
+Welcome to the Level 4 - Yellow Belt. Let's start! 
 
 1. Log in OpenShift AI [here](http://red.ht/rhoai-bu-cluster).
 
 2. Find your Data Science Project.
 
-3. First, let’s create a connection that is pointing to our teeny tiiinny LLM 💚 In your Data Science Project, go to `Connections` , hit `Create Connection` and  select `URI - v1`.
+TODO: add Project screenshot
+
+## 💊 Create Connection
+
+1. First, let’s create a connection that is pointing to our teeny tiiinny LLM 💚 In your Data Science Project, go to `Connections` , hit `Create Connection` and  select `URI - v1`.
 
     ![connection-uri.png](./images/connection-uri.png)
 
-4. Fill out the form with below information:
+2. Fill out the form with below information:
 
 	**Name:** `tinyllama 1.0 on quay.io`
 
@@ -72,7 +75,7 @@
 
     - **Base URL:** `<YOUR MODEL ENDPOINT>/v1`
   
-      - For example: https://tinyllm-neo-space.apps.prod.rhoai.rh-aiservices-bu.com/v1 (make sure you add **/v1** at the end.)
+      - For example: https://tinyllm-neo-space.apps.prod.mycluster.com/v1 (make sure you add **/v1** at the end.)
 
     - **API Key:** Please delete, it should be empty.
 
