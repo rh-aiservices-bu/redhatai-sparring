@@ -8,7 +8,7 @@ Welcome to the Level 4 - Yellow Belt. Let's start!
 
 2. Find your Data Science Project.
 
-TODO: add Project screenshot
+    ![neomspace.png](./images/neomspace.png)
 
 ## 💊 Create Connection
 
