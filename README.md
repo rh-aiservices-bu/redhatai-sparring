@@ -49,7 +49,7 @@ TODO: add Project screenshot
 
     - **Model route:**
         - Select Make deployed models available through an external route
-        - Uncheck Require token authentication for now
+        - Uncheck `Require token authentication` for now
 
     - **Source Model Location:**
 
@@ -88,5 +88,3 @@ TODO: add Project screenshot
 ## 🕶️ Test YOUR Tiny LLM
 
 Have a little chat with it (and never take the power of GPUs for granted again😅)
-
-TODO: add screnshot
