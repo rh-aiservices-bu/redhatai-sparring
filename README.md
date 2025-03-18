@@ -45,7 +45,7 @@ Welcome to the Level 4 - Yellow Belt. Let's start!
 
     - **Serving Runtime:** `CUSTOM - vLLM CPU`
 
-   -  **Model Serving Size:** `Medium`
+   -  **Model Serving Size:** `Small`
 
     - **Model route:**
         - Select Make deployed models available through an external route
@@ -94,4 +94,7 @@ Welcome to the Level 4 - Yellow Belt. Let's start!
 
 ## 🕶️ Test YOUR Tiny LLM
 
-Have a little chat with it (and never take the power of GPUs for granted again😅)
+1. Have a little chat with it (and never take the power of GPUs for granted again😅)
+
+    ![anythingllm.gif](./images/anythingllm.gif)
+
