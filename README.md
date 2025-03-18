@@ -66,12 +66,17 @@ Welcome to the Level 4 - Yellow Belt. Let's start!
 
 ## 🔵 re-Configure AnythingLLM
 
-1. And now if you want to chat with your small but mighty model, all you need to do is make your AnythingLLM pointing to this model! G back to your AnythingLLM settings by clicking the below icon on the right bottom corner:
+1. And now if you want to chat with your small but mighty model, all you need to do is make your AnythingLLM pointing to this model! First, let's copy the **external** endpoint of our model from `Models` page:
+
+    ![model-external-endpoint.png](./images/model-external-endpoint.png)
+
+
+2. Go back to your AnythingLLM settings by clicking the below icon on the right bottom corner:
 
     <img src= "./images/anythingllm-settings.png" alt="your-image-description" style="border: 2px solid grey;">
 
 
-2. And Click `LLM`. Just replace the Granite endpoint URL with your TinyLLM endpoint URL:
+3. And Click `LLM`. Just replace the Granite endpoint URL with your TinyLLM endpoint URL:
 
     - **Base URL:** `<YOUR MODEL ENDPOINT>/v1`
   
@@ -80,6 +85,8 @@ Welcome to the Level 4 - Yellow Belt. Let's start!
     - **API Key:** Please delete, it should be empty.
 
    -  **Chat Model Name:** `/mnt/models`
+
+   -  **Max Tokens**: `512`
 
     Then **save changes**, and **go back**!
 
