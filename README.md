@@ -6,17 +6,17 @@ Welcome to the Level 4 - Yellow Belt. Let's start!
 
 1. Log in OpenShift AI [here](http://red.ht/rhoai-bu-cluster).
 
-2. Find your Data Science Project.
+2. Find your Data Science Project and click it.
 
     ![neomspace.png](./images/neomspace.png)
 
 ## 💊 Create Connection
 
-1. First, let’s create a connection that is pointing to our teeny tiiinny LLM 💚 In your Data Science Project, go to `Connections` , hit `Create Connection` and  select `URI - v1`.
+1. First, let’s create a connection that is pointing to our teeny tiiinny LLM 💚 In your Data Science Project, go to `Connections` , hit `Create Connection` and select `URI - v1`.
 
     ![connection-uri.png](./images/connection-uri.png)
 
-2. Fill out the form with below information:
+2. Fill out the form with below information and click `Create`:
 
 	**Name:** `tinyllama 1.0 on quay.io`
 
@@ -24,14 +24,14 @@ Welcome to the Level 4 - Yellow Belt. Let's start!
 
     <img src= "./images/connection-uri-2.png" alt="your-image-description" style="border: 2px solid grey;">
 
-    After you hit `Create`, you should see a screen like this:
+    After you click `Create`, you should see a screen like this:
 
     <img src= "./images/connection-uri-3.png" alt="your-image-description" style="border: 2px solid grey;">
 
 
 ## 🔴 Deploy the Tiny Model
 
-1. Now,  let’s go to `Models`, and select `Single Model Serving` if you haven’t picked yet.
+1. Now, let’s go to `Models`, and select `Single Model Serving` if you haven’t picked it yet.
 
     ![single-model-serving.png](./images/single-model-serving.png)
 
@@ -48,8 +48,8 @@ Welcome to the Level 4 - Yellow Belt. Let's start!
    -  **Model Serving Size:** `Small`
 
     - **Model route:**
-        - Select Make deployed models available through an external route
-        - Uncheck `Require token authentication` for now
+        - Select `Make deployed models available through an external route`
+        - **Uncheck** `Require token authentication`.
 
     - **Source Model Location:**
 
@@ -66,21 +66,21 @@ Welcome to the Level 4 - Yellow Belt. Let's start!
 
 ## 🔵 re-Configure AnythingLLM
 
-1. And now if you want to chat with your small but mighty model, all you need to do is make your AnythingLLM pointing to this model! First, let's copy the **external** endpoint of our model from `Models` page:
+1. And now if you want to chat with your small but mighty model, all you need to do is to make your AnythingLLM pointing to it! First, let's copy the **external** endpoint of our model from `Models` page:
 
     ![model-external-endpoint.png](./images/model-external-endpoint.png)
 
 
-2. Go back to your AnythingLLM settings by clicking the below icon on the right bottom corner:
+2. Then, please go back to your AnythingLLM. Go to its `settings` by clicking the below icon on the left bottom corner:
 
     <img src= "./images/anythingllm-settings.png" alt="your-image-description" style="border: 2px solid grey;">
 
 
-3. And Click `LLM`. Just replace the Granite endpoint URL with your TinyLLM endpoint URL:
+3. Click `AI Providers` >  `LLM`, and update the model information with your TinyLLM external endpoint that you just copied:
 
-    - **Base URL:** `<YOUR MODEL ENDPOINT>/v1`
+    - **Base URL:** `<YOUR-MODEL-EXTERNAL-ENDPOINT>/v1` 
   
-      - For example: https://tinyllm-neo-space.apps.prod.mycluster.com/v1 (make sure you add **/v1** at the end.)
+      - For example: https://tinyllm-neomspace.apps.prod.mycluster.com/v1 (make sure you add **/v1** at the end‼️)
 
     - **API Key:** Please delete, it should be empty.
 
